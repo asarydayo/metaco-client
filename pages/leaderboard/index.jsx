@@ -95,7 +95,6 @@ export default function index({ leaderboard_data, leaderboard_query }) {
             ) : (
               <p>Leaderboard empty</p>
             )}
-            <pre>{JSON.stringify(leaderboard_query, null, 2)}</pre>
           </Table.Body>
         </Table>
         <Grid columns={3}>
